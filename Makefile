@@ -14,4 +14,4 @@ afl: fuzzgoat
 .PHONY: clean
 
 clean:
-	rm ./fuzzgoat ./fuzzgoat_ASAN
+	rm -f ./fuzzgoat ./fuzzgoat_ASAN

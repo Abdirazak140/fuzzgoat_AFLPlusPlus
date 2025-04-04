@@ -1,0 +1,1250 @@
+=====================================================================
+TIME: 2025-04-03.22:57:41
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5a0000000185555535555561b0000000.00000008.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGABRT.PC.7ffff7c969fc.STACK.19fa5a7958.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 11423
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c969fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 00000019fa5a7958
+STACK:
+ <0x00007ffff7c42476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c287f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c89677> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca0cfc> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca2a44> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca5453> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555587e85> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583ef9> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:57:47
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6da3450288bf751f6f65d69c9ffe4105.0000000f.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583ea5.STACK.18e9cabce1.CODE.1.ADDR.0.INSTR.movsbl_(%rax),%esi.fuzz
+PID: 17362
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583ea5
+FAULT ADDRESS: 0x0
+INSTRUCTION: movsbl_(%rax),%esi
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:57:55
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d9748ad60d8240a8201d58c04a4a80b5.0000000d.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.29.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 23956
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x29
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:58:02
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6bf58da60d8240a8201d5c918e3a80b5.0000000d.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.128.ADDR.0.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 30131
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:58:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6bf58da60d8240a8201d5c918e3a80b5.0000000d.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f079.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 67485
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f079
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:59:08
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d9748ad60d8240a8201d58c04a4a80b5.0000000d.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f0a9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 85461
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f0a9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.22:59:36
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 40b90a1eb51e924ed1969deb4165ef29.00000015.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1d169.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 104849
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1d169
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:08
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: emptyArray
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGABRT.PC.7ffff7c969fc.STACK.df26d64d8.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 123576
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c969fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000df26d64d8
+STACK:
+ <0x00007ffff7c42476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c287f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c89677> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca0cfc> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca30ab> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca5453> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555587e85> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583f66> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555587d97> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00005555555884f1> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00005555555836c7> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:12
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 38a9ad0f6178004ef6555543f8f5b632.00000010.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1edc9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 126353
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1edc9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b39440a2e6174a55c2a64b3d87a82ce3.000002ce.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1edd9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 130899
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1edd9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:19
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b39440a2e6174a55c2a64b3d87a82ce3.000002ce.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1ed99.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 131209
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1ed99
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: oneByteString
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583ea5.STACK.18e9cabce1.CODE.1.ADDR.0.INSTR.movsbl_(%rax),%esi.fuzz
+PID: 131639
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583ea5
+FAULT ADDRESS: 0x0
+INSTRUCTION: movsbl_(%rax),%esi
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: emptyString
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGABRT.PC.7ffff7c969fc.STACK.19fa5a7958.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 131638
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c969fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 00000019fa5a7958
+STACK:
+ <0x00007ffff7c42476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c287f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c89677> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca0cfc> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca2a44> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca5453> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555587e85> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583ef9> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: validObject
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f0a9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 131641
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f0a9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: emptyArray
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGABRT.PC.7ffff7c969fc.STACK.df26d64d8.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 131636
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c969fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000df26d64d8
+STACK:
+ <0x00007ffff7c42476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c287f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c89677> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca0cfc> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca30ab> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ca5453> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555587e85> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583f66> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555587d97> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00005555555884f1> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00005555555836c7> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:00:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bb885ca6f15e9ee3cd5755628a4b5856.0000001b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f079.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 134892
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f079
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:01:06
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f059.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 149277
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f059
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:01:08
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f049.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 150985
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f049
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:01:30
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 28cf1f508c9872244dfd3527dc4be997.00000031.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.128.ADDR.0.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 165269
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:04:07
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e9c51e12e212c42269333d6cfbc2ec4f.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e1a9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 232809
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e1a9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:04:34
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 28cf1f508c9872244dfd3527dc4be997.00000031.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1ef89.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 243772
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1ef89
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:04:37
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1eab9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 244562
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1eab9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:05:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee7ffd23a892c422f83cce9dbfc2ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e949.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 290960
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e949
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:07:22
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: fb09320647384f38cd7242729afbc8c6.0000001b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e3f9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 340820
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e3f9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:08:50
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f029.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 393818
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f029
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:09:08
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f019.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 404824
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f019
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:10:16
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e9c51e12e212c42269333d6cfbc2ec4f.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1ef79.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 446991
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1ef79
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:11:16
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4bdc93d5552e50004e655543ccfbf000.00000006.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e8f9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 484290
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e8f9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:11:21
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e869.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 487401
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e869
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:12:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d2bb8b1f9a985c943cc57546bdece731.0000001f.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1efb9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 527592
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1efb9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:12:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 28cf1f508c9872244dfd3527dc4be997.00000031.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1efd9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 527613
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1efd9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:12:48
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4bdc93d5552e50004e655543ccfbf000.00000006.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1d1f9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 541047
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1d1f9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:12:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1d7e9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 541428
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1d7e9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:14:16
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 88242b82d7215e6ccdb832ed1f375dc0.00000025.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1def9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 595566
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1def9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:14:38
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee7ffd23a892c422f83cce9dbfc2ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1e249.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 609227
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1e249
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:14:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1f009.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 620178
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1f009
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:14:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e7effc93a89234ddf96d8b887c01ecfc.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1efa9.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 620404
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1efa9
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
+=====================================================================
+TIME: 2025-04-03.23:15:23
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./fuzzgoat ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e9c51e12e212c42269333d6cfbc2ec4f.0000002b.honggfuzz.cov
+FUZZ_FNAME: /home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/SIGSEGV.PC.555555583c8e.STACK.18e9cabce1.CODE.1.ADDR.1ed89.INSTR.mov____0x8(%rax),%eax.fuzz
+PID: 636771
+SIGNAL: SIGSEGV (11)
+PC: 0x555555583c8e
+FAULT ADDRESS: 0x1ed89
+INSTRUCTION: mov____0x8(%rax),%eax
+STACK HASH: 00000018e9cabce1
+STACK:
+ <0x0000555555588548> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x0000555555583744> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+ <0x00007ffff7c29d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7c29e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555aa45> [func:UNKNOWN file: line:0 module:/home/abdi/Documents/School/4313/project/fuzzgoat_AFLPlusPlus/fuzzgoat]
+=====================================================================
